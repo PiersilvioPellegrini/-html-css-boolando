@@ -61,29 +61,30 @@ header {
     border-bottom: .1rem solid black;
 }
 
-  
 
-footer{
+
+footer {
     background-color: black;
     color: white;
     margin-top: 30px;
-    padding:25px 0;
-    
+    padding: 25px 0;
+
 }
-.info-footer ul{
+
+.info-footer ul {
     display: flex;
     justify-content: flex-start;
     width: 100%;
     list-style: none;
     column-gap: 10px;
-    
+
 }
 
 
-.footer-container{
+.footer-container {
     margin: 0 auto;
     width: 920px;
-    
+
 
 }
 
@@ -116,7 +117,7 @@ footer{
     column-gap: 10px;
     font-size: 0.9rem;
 }
-
+/* elemento card */
 .card-item {
 
     position: relative;
@@ -138,12 +139,12 @@ footer{
     left: 0;
 
 }
-
+/* sovrapposizione immagine  */
 .img-container:hover .img-top {
     display: inline;
 }
 
-
+/* container elementi absolute img */
 .discount-container {
     width: 100%;
     display: flex;
@@ -181,11 +182,12 @@ footer{
     color: red;
 }
 
-footer h4{
+footer h4 {
     font-size: 1.1rem;
-    padding:  10px 0;
+    padding: 10px 0;
 
 }
- ul li{
+
+ul li {
     font-size: 0.9rem;
- }
+}
