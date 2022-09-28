@@ -61,6 +61,32 @@ header {
     border-bottom: .1rem solid black;
 }
 
+  
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding:25px 0;
+    
+}
+.info-footer ul{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    list-style: none;
+    column-gap: 10px;
+    
+}
+
+
+.footer-container{
+    margin: 0 auto;
+    width: 920px;
+    
+
+}
+
 .categoria {
     display: flex;
     justify-content: space-between;
@@ -104,14 +130,16 @@ header {
     display: inline-block;
     position: relative;
 }
+
 .img-container .img-top {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
-    
+
 }
- .img-container:hover .img-top {
+
+.img-container:hover .img-top {
     display: inline;
 }
 
@@ -149,6 +177,15 @@ header {
     background-color: white;
 }
 
-.heart_container:hover  {
-    color:red;
+.heart_container:hover {
+    color: red;
 }
+
+footer h4{
+    font-size: 1.1rem;
+    padding:  10px 0;
+
+}
+ ul li{
+    font-size: 0.9rem;
+ }
