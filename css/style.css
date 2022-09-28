@@ -101,8 +101,18 @@ header {
 
 .img-container img {
     width: 100%;
-    display: block;
+    display: inline-block;
     position: relative;
+}
+.img-container .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+ .img-container:hover .img-top {
+    display: inline;
 }
 
 
@@ -137,4 +147,8 @@ header {
     padding: 10px;
     font-size: 1rem;
     background-color: white;
+}
+
+.heart_container:hover  {
+    color:red;
 }
