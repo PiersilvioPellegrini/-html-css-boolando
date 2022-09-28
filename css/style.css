@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+
+h5 {
+    font-size: 0.6rem;
+    font-weight: normal;
+
+
+}
+
+.price-container {
+    display: flex;
+    width: 100%;
+    column-gap: 5px;
+
+
+}
+
+.price {
+    font-size: 0.6rem;
+    color: red;
+    font-weight: bold;
+}
+
+.discount {
+    font-size: 0.6rem;
+    text-decoration: line-through;
+    color: black;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+
+}
+
+header {
+    background-color: rgb(238 114 46);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-bottom: .1rem solid black;
+}
+
+.categoria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    column-gap: 10px;
+    font-size: 0.9rem;
+    flex-basis: 10%;
+
+}
+
+.logo {
+    flex-basis: 80%;
+
+}
+
+.logo img {
+    width: 120px;
+
+}
+
+.menu {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 0.9rem;
+}
+
+.card-item {
+
+    position: relative;
+    flex-basis: 30%;
+    flex-grow: 1;
+
+}
+
+.img-container img {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+
+.discount-container {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    color: white;
+    font-size: .6rem;
+    font-weight: bold;
+    column-gap: 4px;
+}
+
+.logo_price {
+    background-color: red;
+    padding: 5px 5px;
+
+}
+
+.logo_info {
+    background-color: green;
+    padding: 5px 5px;
+
+}
+
+.heart_container {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: white;
+}
